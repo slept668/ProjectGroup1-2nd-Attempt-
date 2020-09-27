@@ -2,14 +2,14 @@ for(let i = 1000; i >= 0; i--) {
     console.log(i);
 }
 
-for(let i2 = 0; i2 <= 1000; i2++) {
-    if(i2 = 2500) {
+for(let i = 0; i <= 1000; i++) {
+    if(i = 2500) {
         alert("A quarter of the way there!");
     }
-    if(i2 = 5000) {
+    if(i = 5000) {
         alert("Halfway there!");
     }
-    if(i2 = 10000) {
+    if(i = 10000) {
         alert("The loop is done!");
     }
 }
