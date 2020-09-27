@@ -16,6 +16,6 @@ for(let i = 0; i <= 1000; i++) {
 
 var movieArray = ["You Don't Mess with the Zohan", "Happy Gilmore", "Billy Madison", "The Waterboy", "The Longest yard"];
 
-for(let m = movieArray[0]; m < 5; m++) {
-    console.log("My #" + movieArray() + " movie is " + movieArray[]);
+for(let i = 0; i < movieArray.length; i++) {
+    console.log("My #" + (i + 1)  + " favorite movie is " + movieArray[i])
 }
