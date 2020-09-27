@@ -14,9 +14,7 @@ for(let i2 = 0; i2 <= 1000; i2++) {
     }
 }
 
-var movieArray = ["You Don't Mess with the Zohan", "Happy Gilmore", "Billy Madison", 
-"The Waterboy", 
-"The Longest yard"];
+var movieArray = ["You Don't Mess with the Zohan", "Happy Gilmore", "Billy Madison", "The Waterboy", "The Longest yard"];
 
 for(let m = movieArray[0]; m < 5; m++) {
     console.log("My #" + movieArray() + " movie is " + movieArray[]);
